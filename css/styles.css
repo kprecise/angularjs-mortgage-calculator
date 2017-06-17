@@ -1,0 +1,164 @@
+body {
+  color: #666;
+  background: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 34px;
+  text-align: center;
+}
+
+label {
+  margin-top: 6px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+input {
+  text-align: right;
+}
+
+form {
+  margin-top: 20px;
+}
+
+p {
+  margin: 12px 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+p.amount {
+  font-size: 45px;
+  color: #ba2c09;
+}
+
+.container {
+  margin: 36px auto;
+  padding: 20px;
+  background: #efefed;
+}
+
+.result {
+  margin-top: 30px;
+}
+
+/*------- form --------*/
+
+.form-group {
+  border-bottom: 2px #e7e7e7 solid;
+  padding: 15px 0 30px
+}
+
+.form-group span {
+  display: inline-block;
+  margin-bottom: 5px;
+  max-width: 100%;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 6px;
+}
+
+.form-group.last {
+  border-bottom: 0;
+  padding: 0;
+}
+
+.form-control {
+  border-radius: 0;
+  color: #333;
+  height: 44px;
+  font-size: 22px;
+}
+
+.form-control.small {
+  width: 50px;
+}
+
+.currency {
+  position: absolute;
+  right: -40px;
+  top: 3px;
+  z-index: 1;
+  color: #333;
+}
+
+.percent {
+  position: absolute;
+  right: 29px;
+  top: 3px;
+  z-index: 1;
+  color: #333;
+}
+
+#InputInterestRate {
+  padding: 6px 36px 6px 12px;
+}
+
+/*------- buttons --------*/
+
+.btn-primary {
+  background-color: #c95c01;
+  border-color: #c95c01;
+  width: 50%;
+}
+
+.btn-primary:hover {
+  background-color: #b35404;
+  border-color: #b35404;
+}
+
+.btn-lg {
+  font-size: 20px;
+}
+
+/*------- slider --------*/
+
+#ex1Slider .slider-selection {
+  background: #BABABA;
+}
+
+#ex1Slider .slider-handle {
+  background-color: #fff !important;
+  background-image: none;
+  border: 1px solid #ba2c09;
+}
+
+.slider.slider-horizontal {
+  width: 100% !important;
+  height: 40px !important;
+}
+
+.slider.slider-horizontal .slider-track {
+  height: 4px !important;
+  background-color: #acacac !important;
+}
+.slider-track-high {
+  background-color: #acacac !important;
+}
+
+#ex1Slider .slider-selection {
+  background: #ba2c09 !important;
+}
+
+.slider-handle {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .container {
+    padding: 40px;
+  }
+  .result {
+    margin-top: 150px;
+  }
+  .btn-primary {
+    width: 80%;
+  }
+}
+
+
